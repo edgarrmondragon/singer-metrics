@@ -1,0 +1,29 @@
+[build-system]
+build-backend = "maturin"
+requires = ["maturin>=0.14.10,<0.15"]
+
+[project]
+name = "singer_metrics"
+version = "0.0.1"
+description = "Converts Singer Metrics to InfluxDB Line Protocol"
+authors = [{ name = "Edgar Ramirez", email = "edgarrm358@gmail.com" }]
+maintainers = [{ name = "Edgar Ramirez", email = "edgarrm358@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+keywords = ["singer.io", "monitoring", "metrics", "influxdb"]
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Rust",
+]
+urls = { repository = "https://github.com/edgarrmondragon/singer-metrics-telegraf" }
+
+[tool.maturin]
+bindings = "bin"
+python-source = "python"
+strip = true
