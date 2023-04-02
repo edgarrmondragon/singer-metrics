@@ -6,7 +6,7 @@ This project is a collection of utilities for processing metrics from the Singer
 
 The expected format of a Singer metric line is:
 
-```json
+```
 <TIMESTAMP> INFO METRIC: <METRIC JSON>
 ```
 
@@ -27,5 +27,5 @@ mature build
 The `singer_metrics` package provides a `singer-metrics-line-protocol` command line utility that can be used to convert Singer metrics to InfluxDB line protocol.
 
 ```sh
-cat metrics.log | singer-metrics-line-protocol > line_protocol.txt
+cat metrics.log | singer-metrics line-protocol > line_protocol.txt
 ```
