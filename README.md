@@ -24,8 +24,10 @@ mature build
 
 ## InfluxDB line protocol
 
-The `singer_metrics` package provides a `singer-metrics-line-protocol` command line utility that can be used to convert Singer metrics to InfluxDB line protocol.
+The `singer-metrics` CLI provides a `line-protocol` subcommand that can be used to convert Singer metrics to the [InfluxDB line protocol](https://docs.influxdata.com/influxdb/v2.6/reference/syntax/line-protocol/).
 
-```sh
-cat metrics.log | singer-metrics line-protocol > line_protocol.txt
+```console
+$ echo 'INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.846369, "tags": {"my_tag": "abc"}}' \
+  | singer-metrics line-protocol
+http_request_duration,my_tag="abc" value=0.846369 1680468150224571000
 ```
