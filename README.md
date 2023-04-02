@@ -19,7 +19,7 @@ cargo build
 ### Python wheel
 
 ```sh
-mature build
+maturin build
 ```
 
 ## InfluxDB line protocol
