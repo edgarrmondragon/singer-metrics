@@ -1,6 +1,6 @@
 [build-system]
 build-backend = "maturin"
-requires = ["maturin>=0.14.10,<0.15"]
+requires = ["maturin>=0.14,<0.15"]
 
 [project]
 name = "singer_metrics"
@@ -25,5 +25,4 @@ urls = { repository = "https://github.com/edgarrmondragon/singer-metrics-telegra
 
 [tool.maturin]
 bindings = "bin"
-python-source = "python"
 strip = true
