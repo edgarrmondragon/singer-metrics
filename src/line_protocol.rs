@@ -129,24 +129,31 @@ fn format_map_iter<'a>(
     prefix: Option<&str>,
 ) -> String {
     iter.map(|(k, v)| (_add_key_prefix(k, prefix), v))
-        .map(|(k, v)| format_value(&k, v))
+        .map(|(k, v)| format_tag_value(&k, v))
         .filter(|s| !s.is_empty())
         .collect::<Vec<String>>()
         .join(",")
 }
 
 /// Format a key/value pair into the line protocol format
-fn format_value(key: &str, value: &Value) -> String {
+fn format_tag_value(key: &str, value: &Value) -> String {
+    // Escape whitespace in key
+    let key = key.replace(' ', "\\ ");
+
     match value {
-        Value::Object(obj) => format_map_iter(obj.iter(), Some(key)),
+        Value::Object(obj) => format_map_iter(obj.iter(), Some(&key)),
         Value::Bool(b) => format!("{key}={b}"),
         Value::Number(n) => format!("{key}={n}"),
-        Value::String(s) => format!("{key}=\"{s}\""),
+        Value::String(s) => {
+            let s = s.replace(' ', "\\ ");
+            format!("{key}={s}")
+        }
+        // Value::String(s) => format!("{key}=\"{s}\""),
         Value::Null => "".to_string(),
         Value::Array(a) => a
             .iter()
             .enumerate()
-            .map(|(i, v)| format_value(&format!("{key}_{i}"), v))
+            .map(|(i, v)| format_tag_value(&format!("{key}_{i}"), v))
             .collect::<Vec<String>>()
             .join(","),
     }
@@ -194,7 +201,7 @@ fn test_line_protocol() {
 
     assert_eq!(
         line,
-        "test,tag1=\"value1\",tag2=2 value=1.23 1624579200000000000"
+        "test,tag1=value1,tag2=2 value=1.23 1624579200000000000"
     );
 }
 
@@ -267,7 +274,7 @@ fn test_line_protocol_extra_tags() {
 
     assert_eq!(
         line,
-        "test,tag1=\"value1\",tag2=2,tag3=\"value3\",tag4=4 value=1.23 1624579200"
+        "test,tag1=value1,tag2=2,tag3=value3,tag4=4 value=1.23 1624579200"
     );
 }
 
@@ -304,7 +311,39 @@ fn test_line_protocol_nested_tags() {
 
     assert_eq!(
         line,
-        "test,tag1=\"value1\",tag2=2,tag3__tag4=\"value4\",tag3__tag5=5 value=1.23 \
-         1624579200000000000"
+        "test,tag1=value1,tag2=2,tag3__tag4=value4,tag3__tag5=5 value=1.23 1624579200000000000"
+    );
+}
+
+#[test]
+fn test_escape_whitespace() {
+    use chrono::Utc;
+
+    let protocol = LineProtocol::new(Precision::Milliseconds, None);
+
+    let line = protocol.dump(&Measurement {
+        point: Point::Counter {
+            metric: "test".to_string(),
+            value: 42,
+            tags: Tags::from_iter(vec![
+                (
+                    "Tag With Spaces".to_string(),
+                    Value::String("ValueNoSpaces".to_string()),
+                ),
+                (
+                    "TagNoSpaces".to_string(),
+                    Value::String("Value With Spaces".to_string()),
+                ),
+            ]),
+        },
+        timestamp: DateTime::parse_from_rfc3339("2021-06-25T00:00:00Z")
+            .unwrap()
+            .with_timezone(&Utc),
+    });
+
+    assert_eq!(
+        line,
+        "test,Tag\\ With\\ Spaces=ValueNoSpaces,TagNoSpaces=Value\\ With\\ Spaces value=42 \
+         1624579200000"
     );
 }
