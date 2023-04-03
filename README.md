@@ -1,5 +1,8 @@
 # Singer Metrics Processing
 
+> **Warning**
+> Experimental and subject to significant changes to the API and CLI.
+
 This project is a collection of utilities for processing metrics from the Singer.io specification.
 
 ## Singer Metrics
