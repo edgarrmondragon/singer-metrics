@@ -4,14 +4,9 @@
 #    maturin generate-ci github
 #
 on:
-  push:
-    branches:
-      - main
-      - master
-    tags:
-      - '*'
-  pull_request:
   workflow_dispatch:
+  release:
+    types: [published]
 
 permissions:
   contents: read
