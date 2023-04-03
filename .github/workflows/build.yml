@@ -3,6 +3,8 @@
 #
 #    maturin generate-ci github
 #
+name: Build & Publish
+
 on:
   workflow_dispatch:
   release:

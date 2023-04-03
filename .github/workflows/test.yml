@@ -20,7 +20,6 @@ jobs:
         run: rustup component add rustfmt
       - run: cargo fmt --all --check
 
-
   cargo-clippy:
     name: "cargo clippy"
     runs-on: ubuntu-latest
