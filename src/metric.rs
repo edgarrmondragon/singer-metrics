@@ -18,23 +18,41 @@ lazy_static! {
 #[serde(tag = "metric_type", rename_all = "lowercase")]
 pub enum Point {
     Timer {
+        /// The metric name
         metric: String,
+
+        /// The metric value
         value: f64,
+
+        /// The metric tags
         tags: Tags,
     },
     Counter {
+        /// The metric name
         metric: String,
+
+        /// The metric value
         value: i64,
+
+        /// The metric tags
         tags: Tags,
     },
 }
 
-#[derive(Debug, Default)]
+/// The timestamp precision to use
+#[derive(Clone, Debug, Default, clap::ValueEnum)]
 pub enum Precision {
     #[default]
+    #[clap(name = "ns")]
     Nanoseconds,
+
+    #[clap(name = "us")]
     Microseconds,
+
+    #[clap(name = "ms")]
     Milliseconds,
+
+    #[clap(name = "s")]
     Seconds,
 }
 
@@ -50,13 +68,25 @@ impl Precision {
     }
 }
 
+/// A measurement from a singer metric log
 pub struct Measurement {
+    /// The measurement point
     pub point: Point,
+
+    /// The measurement timestamp, in UTC
     pub timestamp: DateTime<Utc>,
 }
 
 impl Measurement {
     /// Parse a line from a singer metric log
+    ///
+    /// # Arguments
+    ///
+    /// * `line` - The line to parse
+    ///
+    /// # Returns
+    ///
+    /// A measurement result
     fn from_singer_metric_line(line: &str) -> Result<Self, String> {
         let caps = SINGER_METRIC_PATTERN
             .captures(line)
@@ -87,7 +117,8 @@ impl Measurement {
 
 #[test]
 fn test_from_singer_metric_line() {
-    let line = "2020-10-01 00:00:00,000 INFO METRIC: {\"metric_type\": \"timer\", \"metric\": \"test\", \"value\": 1.0, \"tags\": {\"tag1\": \"value1\"}}";
+    let line = "2020-10-01 00:00:00,000 INFO METRIC: {\"metric_type\": \"timer\", \"metric\": \
+                \"test\", \"value\": 1.0, \"tags\": {\"tag1\": \"value1\"}}";
     let measurement = Measurement::from_singer_metric_line(line).unwrap();
 
     assert_eq!(
@@ -104,7 +135,8 @@ fn test_from_singer_metric_line() {
 
 #[test]
 fn test_from_singer_metric_line_no_timestamp() {
-    let line = "INFO METRIC: {\"metric_type\": \"timer\", \"metric\": \"test\", \"value\": 1.0, \"tags\": {\"tag1\": \"value1\"}}";
+    let line = "INFO METRIC: {\"metric_type\": \"timer\", \"metric\": \"test\", \"value\": 1.0, \
+                \"tags\": {\"tag1\": \"value1\"}}";
     let measurement = Measurement::from_singer_metric_line(line).unwrap();
 
     assert!(measurement.timestamp > Utc::now() - chrono::Duration::seconds(1));

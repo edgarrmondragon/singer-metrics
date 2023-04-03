@@ -5,10 +5,14 @@ use crate::metric::{Measurement, Point, Precision, Tags};
 use crate::protocol_trait::ProtocolTrait;
 
 /// InfluxDB line protocol
-/// https://docs.influxdata.com/influxdb/v2.6/reference/syntax/line-protocol/
+///
+/// `https://docs.influxdata.com/influxdb/v2.6/reference/syntax/line-protocol/`
 #[derive(Default)]
 pub struct LineProtocol {
+    /// An optional map of extra tags to add to each measurement
     pub extra_tags: Tags,
+
+    /// The timestamp precision to use when formatting timestamps
     pub precision: Precision,
 }
 
@@ -112,9 +116,20 @@ impl ProtocolTrait for LineProtocol {
     }
 }
 
+fn _add_key_prefix(key: &str, prefix: Option<&str>) -> String {
+    if let Some(prefix) = prefix {
+        return format!("{}__{}", prefix, key);
+    }
+    key.to_string()
+}
+
 // Format a map of key/value pairs into a string
-fn format_map_iter<'a>(iter: impl Iterator<Item = (&'a String, &'a Value)>) -> String {
-    iter.map(|(k, v)| format_value(k, v))
+fn format_map_iter<'a>(
+    iter: impl Iterator<Item = (&'a String, &'a Value)>,
+    prefix: Option<&str>,
+) -> String {
+    iter.map(|(k, v)| (_add_key_prefix(k, prefix), v))
+        .map(|(k, v)| format_value(&k, v))
         .filter(|s| !s.is_empty())
         .collect::<Vec<String>>()
         .join(",")
@@ -123,7 +138,7 @@ fn format_map_iter<'a>(iter: impl Iterator<Item = (&'a String, &'a Value)>) -> S
 /// Format a key/value pair into the line protocol format
 fn format_value(key: &str, value: &Value) -> String {
     match value {
-        Value::Object(obj) => format_map_iter(obj.iter()),
+        Value::Object(obj) => format_map_iter(obj.iter(), Some(key)),
         Value::Bool(b) => format!("{key}={b}"),
         Value::Number(n) => format!("{key}={n}"),
         Value::String(s) => format!("{key}=\"{s}\""),
@@ -139,7 +154,7 @@ fn format_value(key: &str, value: &Value) -> String {
 
 /// Format a set of tags into a string
 fn format_tags(tags: &Tags, extra_tags: &Tags) -> String {
-    let mut tags_string = format_map_iter(tags.iter().chain(extra_tags.iter()));
+    let mut tags_string = format_map_iter(tags.iter().chain(extra_tags.iter()), None);
     if !tags_string.is_empty() {
         tags_string.insert(0, ',');
     }
@@ -253,5 +268,43 @@ fn test_line_protocol_extra_tags() {
     assert_eq!(
         line,
         "test,tag1=\"value1\",tag2=2,tag3=\"value3\",tag4=4 value=1.23 1624579200"
+    );
+}
+
+#[test]
+fn test_line_protocol_nested_tags() {
+    use chrono::Utc;
+    use serde_json::Value;
+
+    let protocol = LineProtocol::default();
+
+    let line = protocol.dump(&Measurement {
+        point: Point::Timer {
+            metric: "test".to_string(),
+            value: 1.23,
+            tags: Tags::from_iter(vec![
+                ("tag1".to_string(), Value::String("value1".to_string())),
+                ("tag2".to_string(), Value::Number(2.into())),
+                (
+                    "tag3".to_string(),
+                    Value::Object(
+                        Tags::from_iter(vec![
+                            ("tag4".to_string(), Value::String("value4".to_string())),
+                            ("tag5".to_string(), Value::Number(5.into())),
+                        ])
+                        .into(),
+                    ),
+                ),
+            ]),
+        },
+        timestamp: DateTime::parse_from_rfc3339("2021-06-25T00:00:00Z")
+            .unwrap()
+            .with_timezone(&Utc),
+    });
+
+    assert_eq!(
+        line,
+        "test,tag1=\"value1\",tag2=2,tag3__tag4=\"value4\",tag3__tag5=5 value=1.23 \
+         1624579200000000000"
     );
 }
