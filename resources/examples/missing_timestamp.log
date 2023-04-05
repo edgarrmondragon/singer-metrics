@@ -1,502 +1,502 @@
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.846369, "tags": {"stream": "questions", "endpoint": "/questions", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.434483, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0018148422241210938, "tags": {"stream": "answers", "context": {"question_id": 10158}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.446814, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.001672983169555664, "tags": {"stream": "question_comments", "context": {"question_id": 10158}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103379, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0020227432250976562, "tags": {"stream": "answers", "context": {"question_id": 20378}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.098754, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0016138553619384766, "tags": {"stream": "question_comments", "context": {"question_id": 20378}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.105826, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.002064943313598633, "tags": {"stream": "answers", "context": {"question_id": 6449}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.105138, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0021588802337646484, "tags": {"stream": "question_comments", "context": {"question_id": 6449}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "question_comments", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.1217, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.002218961715698242, "tags": {"stream": "answers", "context": {"question_id": 4494}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.10284, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0014081001281738281, "tags": {"stream": "question_comments", "context": {"question_id": 4494}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.11518, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0026559829711914062, "tags": {"stream": "answers", "context": {"question_id": 468}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.10022, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0013699531555175781, "tags": {"stream": "question_comments", "context": {"question_id": 468}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103196, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0014672279357910156, "tags": {"stream": "answers", "context": {"question_id": 31890}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.101409, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0012519359588623047, "tags": {"stream": "question_comments", "context": {"question_id": 31890}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.109431, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0020792484283447266, "tags": {"stream": "answers", "context": {"question_id": 6441}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.098585, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0014030933380126953, "tags": {"stream": "question_comments", "context": {"question_id": 6441}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.106192, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0024399757385253906, "tags": {"stream": "answers", "context": {"question_id": 19497}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "answers", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.101002, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.00305938720703125, "tags": {"stream": "question_comments", "context": {"question_id": 19497}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 10, "tags": {"stream": "question_comments", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.100902, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0020799636840820312, "tags": {"stream": "answers", "context": {"question_id": 35918}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.104394, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0018157958984375, "tags": {"stream": "question_comments", "context": {"question_id": 35918}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.10842, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0017490386962890625, "tags": {"stream": "answers", "context": {"question_id": 37962}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103271, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.00164794921875, "tags": {"stream": "question_comments", "context": {"question_id": 37962}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.101395, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.002346038818359375, "tags": {"stream": "answers", "context": {"question_id": 14190}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.097222, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.002271890640258789, "tags": {"stream": "question_comments", "context": {"question_id": 14190}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "question_comments", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.113479, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.002852201461791992, "tags": {"stream": "answers", "context": {"question_id": 6}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 6, "tags": {"stream": "answers", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.10229, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.002313852310180664, "tags": {"stream": "question_comments", "context": {"question_id": 6}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "question_comments", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.099477, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.001360177993774414, "tags": {"stream": "answers", "context": {"question_id": 46197}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.124317, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0025000572204589844, "tags": {"stream": "question_comments", "context": {"question_id": 46197}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "question_comments", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.101711, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0027189254760742188, "tags": {"stream": "answers", "context": {"question_id": 361}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.098939, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0016028881072998047, "tags": {"stream": "question_comments", "context": {"question_id": 361}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.104118, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.001531839370727539, "tags": {"stream": "answers", "context": {"question_id": 48520}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103403, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0017261505126953125, "tags": {"stream": "question_comments", "context": {"question_id": 48520}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.104553, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0015001296997070312, "tags": {"stream": "answers", "context": {"question_id": 21502}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.107042, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0028259754180908203, "tags": {"stream": "question_comments", "context": {"question_id": 21502}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "question_comments", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103544, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.002992868423461914, "tags": {"stream": "answers", "context": {"question_id": 19816}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103675, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.003247976303100586, "tags": {"stream": "question_comments", "context": {"question_id": 19816}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 7, "tags": {"stream": "question_comments", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.108492, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0023031234741210938, "tags": {"stream": "answers", "context": {"question_id": 49414}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103869, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0014491081237792969, "tags": {"stream": "question_comments", "context": {"question_id": 49414}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.102371, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.002504110336303711, "tags": {"stream": "answers", "context": {"question_id": 47239}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.106966, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0025408267974853516, "tags": {"stream": "question_comments", "context": {"question_id": 47239}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "question_comments", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.108105, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0013010501861572266, "tags": {"stream": "answers", "context": {"question_id": 55808}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.097749, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0014178752899169922, "tags": {"stream": "question_comments", "context": {"question_id": 55808}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.139333, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0016016960144042969, "tags": {"stream": "answers", "context": {"question_id": 48503}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.099539, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0014116764068603516, "tags": {"stream": "question_comments", "context": {"question_id": 48503}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.124788, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0016031265258789062, "tags": {"stream": "answers", "context": {"question_id": 56405}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.111623, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0014090538024902344, "tags": {"stream": "question_comments", "context": {"question_id": 56405}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.097872, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0015020370483398438, "tags": {"stream": "answers", "context": {"question_id": 39973}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.107824, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0014410018920898438, "tags": {"stream": "question_comments", "context": {"question_id": 39973}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103348, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0027289390563964844, "tags": {"stream": "answers", "context": {"question_id": 54062}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103383, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0013818740844726562, "tags": {"stream": "question_comments", "context": {"question_id": 54062}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.104608, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0015499591827392578, "tags": {"stream": "answers", "context": {"question_id": 53543}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.099452, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0012600421905517578, "tags": {"stream": "question_comments", "context": {"question_id": 53543}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.101413, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.002794027328491211, "tags": {"stream": "answers", "context": {"question_id": 34368}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.104867, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.002809762954711914, "tags": {"stream": "question_comments", "context": {"question_id": 34368}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "question_comments", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.1059, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.001600027084350586, "tags": {"stream": "answers", "context": {"question_id": 61247}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.102661, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0012612342834472656, "tags": {"stream": "question_comments", "context": {"question_id": 61247}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "questions", "endpoint": "/questions", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.21788787841796875, "tags": {"stream": "questions", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 27, "tags": {"stream": "questions", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.432021, "tags": {"stream": "tag_synonyms", "endpoint": "/tags/{tag}/synonyms", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "tag_synonyms", "endpoint": "/tags/{tag}/synonyms", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0016281604766845703, "tags": {"stream": "tag_synonyms", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "tag_synonyms", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.496807, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.126265, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.117238, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.115443, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.114358, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.114527, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.106658, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.206878, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.266503, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.197892, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.16902, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.11301, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.116561, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.114028, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.148107, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.110449, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 16, "tags": {"stream": "tags", "endpoint": "/tags"}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1581261157989502, "tags": {"stream": "tags", "context": {}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1538, "tags": {"stream": "tags", "context": {}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.448651, "tags": {"stream": "top_answerers", "endpoint": "/tags/{tag}/top-answerers/all_time", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "top_answerers", "endpoint": "/tags/{tag}/top-answerers/all_time", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.004900932312011719, "tags": {"stream": "top_answerers", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 20, "tags": {"stream": "top_answerers", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.462952, "tags": {"stream": "top_askers", "endpoint": "/tags/{tag}/top-askers/all_time", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "top_askers", "endpoint": "/tags/{tag}/top-askers/all_time", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.0042798519134521484, "tags": {"stream": "top_askers", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 16, "tags": {"stream": "top_askers", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.570872, "tags": {"stream": "questions", "endpoint": "/questions", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.459986, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.46685314178466797, "tags": {"stream": "answers", "context": {"question_id": 10158}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.452267, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.4587278366088867, "tags": {"stream": "question_comments", "context": {"question_id": 10158}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 10158}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.137333, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.14459490776062012, "tags": {"stream": "answers", "context": {"question_id": 20378}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.113821, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11922121047973633, "tags": {"stream": "question_comments", "context": {"question_id": 20378}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 20378}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.121921, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1290140151977539, "tags": {"stream": "answers", "context": {"question_id": 6449}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.180831, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1875619888305664, "tags": {"stream": "question_comments", "context": {"question_id": 6449}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "question_comments", "context": {"question_id": 6449}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.111576, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11766719818115234, "tags": {"stream": "answers", "context": {"question_id": 4494}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.108639, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11397910118103027, "tags": {"stream": "question_comments", "context": {"question_id": 4494}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 4494}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.119114, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1271979808807373, "tags": {"stream": "answers", "context": {"question_id": 468}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.105492, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11174798011779785, "tags": {"stream": "question_comments", "context": {"question_id": 468}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 468}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.114298, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.12024092674255371, "tags": {"stream": "answers", "context": {"question_id": 31890}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.10815, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11365699768066406, "tags": {"stream": "question_comments", "context": {"question_id": 31890}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 31890}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.1081, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11531209945678711, "tags": {"stream": "answers", "context": {"question_id": 6441}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.100426, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10536003112792969, "tags": {"stream": "question_comments", "context": {"question_id": 6441}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 6441}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.106544, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11344003677368164, "tags": {"stream": "answers", "context": {"question_id": 19497}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "answers", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.108653, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11644887924194336, "tags": {"stream": "question_comments", "context": {"question_id": 19497}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 10, "tags": {"stream": "question_comments", "context": {"question_id": 19497}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.101785, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10900497436523438, "tags": {"stream": "answers", "context": {"question_id": 35918}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.102819, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10830402374267578, "tags": {"stream": "question_comments", "context": {"question_id": 35918}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 35918}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.100822, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10676789283752441, "tags": {"stream": "answers", "context": {"question_id": 37962}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.10668, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11284399032592773, "tags": {"stream": "question_comments", "context": {"question_id": 37962}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 37962}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.102955, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10984921455383301, "tags": {"stream": "answers", "context": {"question_id": 14190}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.098286, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1047370433807373, "tags": {"stream": "question_comments", "context": {"question_id": 14190}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "question_comments", "context": {"question_id": 14190}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.105954, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11382508277893066, "tags": {"stream": "answers", "context": {"question_id": 6}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 6, "tags": {"stream": "answers", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.112937, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11953997611999512, "tags": {"stream": "question_comments", "context": {"question_id": 6}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "question_comments", "context": {"question_id": 6}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.106885, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11254715919494629, "tags": {"stream": "answers", "context": {"question_id": 46197}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103187, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11017823219299316, "tags": {"stream": "question_comments", "context": {"question_id": 46197}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "question_comments", "context": {"question_id": 46197}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.106825, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11520576477050781, "tags": {"stream": "answers", "context": {"question_id": 361}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.105171, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11178183555603027, "tags": {"stream": "question_comments", "context": {"question_id": 361}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 361}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.104186, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1097099781036377, "tags": {"stream": "answers", "context": {"question_id": 48520}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103628, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1097860336303711, "tags": {"stream": "question_comments", "context": {"question_id": 48520}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 48520}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.110671, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11661911010742188, "tags": {"stream": "answers", "context": {"question_id": 21502}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.099385, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10730600357055664, "tags": {"stream": "question_comments", "context": {"question_id": 21502}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "question_comments", "context": {"question_id": 21502}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.104211, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1113138198852539, "tags": {"stream": "answers", "context": {"question_id": 19816}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.098802, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10782408714294434, "tags": {"stream": "question_comments", "context": {"question_id": 19816}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 7, "tags": {"stream": "question_comments", "context": {"question_id": 19816}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.098697, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10541796684265137, "tags": {"stream": "answers", "context": {"question_id": 49414}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.102933, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1087501049041748, "tags": {"stream": "question_comments", "context": {"question_id": 49414}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 49414}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.101691, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1094810962677002, "tags": {"stream": "answers", "context": {"question_id": 47239}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.100329, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10715007781982422, "tags": {"stream": "question_comments", "context": {"question_id": 47239}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "question_comments", "context": {"question_id": 47239}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.103323, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10878515243530273, "tags": {"stream": "answers", "context": {"question_id": 55808}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.115821, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.12180876731872559, "tags": {"stream": "question_comments", "context": {"question_id": 55808}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 55808}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.101588, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10794281959533691, "tags": {"stream": "answers", "context": {"question_id": 48503}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.106706, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11269307136535645, "tags": {"stream": "question_comments", "context": {"question_id": 48503}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 48503}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.11129, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1174771785736084, "tags": {"stream": "answers", "context": {"question_id": 56405}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.104117, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11038804054260254, "tags": {"stream": "question_comments", "context": {"question_id": 56405}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 56405}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.138591, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1456770896911621, "tags": {"stream": "answers", "context": {"question_id": 39973}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.115364, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.12199878692626953, "tags": {"stream": "question_comments", "context": {"question_id": 39973}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 39973}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.124801, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.13194584846496582, "tags": {"stream": "answers", "context": {"question_id": 54062}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.105097, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11100268363952637, "tags": {"stream": "question_comments", "context": {"question_id": 54062}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 54062}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.130379, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.1361379623413086, "tags": {"stream": "answers", "context": {"question_id": 53543}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.12046, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.12628626823425293, "tags": {"stream": "question_comments", "context": {"question_id": 53543}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 53543}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.120109, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.12704110145568848, "tags": {"stream": "answers", "context": {"question_id": 34368}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.108179, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.11739015579223633, "tags": {"stream": "question_comments", "context": {"question_id": 34368}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "question_comments", "context": {"question_id": 34368}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.123185, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.12981414794921875, "tags": {"stream": "answers", "context": {"question_id": 61247}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.101833, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.10768485069274902, "tags": {"stream": "question_comments", "context": {"question_id": 61247}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 61247}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "questions", "endpoint": "/questions", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 7.823533058166504, "tags": {"stream": "questions", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 27, "tags": {"stream": "questions", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.406336, "tags": {"stream": "tag_synonyms", "endpoint": "/tags/{tag}/synonyms", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "tag_synonyms", "endpoint": "/tags/{tag}/synonyms", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.4115567207336426, "tags": {"stream": "tag_synonyms", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "tag_synonyms", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.487657, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.115912, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.11557, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.114664, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.113381, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.118603, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.115276, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.111549, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.121151, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.115523, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.113458, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.117243, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.120362, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.113863, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.120041, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.108634, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 16, "tags": {"stream": "tags", "endpoint": "/tags"}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 2.4863340854644775, "tags": {"stream": "tags", "context": {}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 1538, "tags": {"stream": "tags", "context": {}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.456824, "tags": {"stream": "top_answerers", "endpoint": "/tags/{tag}/top-answerers/all_time", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "top_answerers", "endpoint": "/tags/{tag}/top-answerers/all_time", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.4682590961456299, "tags": {"stream": "top_answerers", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 20, "tags": {"stream": "top_answerers", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "http_request_duration", "value": 0.418276, "tags": {"stream": "top_askers", "endpoint": "/tags/{tag}/top-askers/all_time", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "top_askers", "endpoint": "/tags/{tag}/top-askers/all_time", "context": {"tag": "dragon-ball-gt"}}}
-INFO METRIC: {"metric_type": "timer", "metric": "sync_duration", "value": 0.4280567169189453, "tags": {"stream": "top_askers", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
-INFO METRIC: {"metric_type": "counter", "metric": "record_count", "value": 16, "tags": {"stream": "top_askers", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.846369, "tags": {"stream": "questions", "endpoint": "/questions", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.434483, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0018148422241210938, "tags": {"stream": "answers", "context": {"question_id": 10158}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.446814, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.001672983169555664, "tags": {"stream": "question_comments", "context": {"question_id": 10158}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103379, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0020227432250976562, "tags": {"stream": "answers", "context": {"question_id": 20378}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.098754, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0016138553619384766, "tags": {"stream": "question_comments", "context": {"question_id": 20378}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.105826, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.002064943313598633, "tags": {"stream": "answers", "context": {"question_id": 6449}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.105138, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0021588802337646484, "tags": {"stream": "question_comments", "context": {"question_id": 6449}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "question_comments", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.1217, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.002218961715698242, "tags": {"stream": "answers", "context": {"question_id": 4494}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.10284, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0014081001281738281, "tags": {"stream": "question_comments", "context": {"question_id": 4494}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.11518, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0026559829711914062, "tags": {"stream": "answers", "context": {"question_id": 468}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.10022, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0013699531555175781, "tags": {"stream": "question_comments", "context": {"question_id": 468}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103196, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0014672279357910156, "tags": {"stream": "answers", "context": {"question_id": 31890}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.101409, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0012519359588623047, "tags": {"stream": "question_comments", "context": {"question_id": 31890}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.109431, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0020792484283447266, "tags": {"stream": "answers", "context": {"question_id": 6441}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.098585, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0014030933380126953, "tags": {"stream": "question_comments", "context": {"question_id": 6441}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.106192, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0024399757385253906, "tags": {"stream": "answers", "context": {"question_id": 19497}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "answers", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.101002, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.00305938720703125, "tags": {"stream": "question_comments", "context": {"question_id": 19497}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 10, "tags": {"stream": "question_comments", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.100902, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0020799636840820312, "tags": {"stream": "answers", "context": {"question_id": 35918}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.104394, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0018157958984375, "tags": {"stream": "question_comments", "context": {"question_id": 35918}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.10842, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0017490386962890625, "tags": {"stream": "answers", "context": {"question_id": 37962}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103271, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.00164794921875, "tags": {"stream": "question_comments", "context": {"question_id": 37962}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.101395, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.002346038818359375, "tags": {"stream": "answers", "context": {"question_id": 14190}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.097222, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.002271890640258789, "tags": {"stream": "question_comments", "context": {"question_id": 14190}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "question_comments", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.113479, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.002852201461791992, "tags": {"stream": "answers", "context": {"question_id": 6}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 6, "tags": {"stream": "answers", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.10229, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.002313852310180664, "tags": {"stream": "question_comments", "context": {"question_id": 6}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "question_comments", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.099477, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.001360177993774414, "tags": {"stream": "answers", "context": {"question_id": 46197}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.124317, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0025000572204589844, "tags": {"stream": "question_comments", "context": {"question_id": 46197}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "question_comments", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.101711, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0027189254760742188, "tags": {"stream": "answers", "context": {"question_id": 361}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.098939, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0016028881072998047, "tags": {"stream": "question_comments", "context": {"question_id": 361}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.104118, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.001531839370727539, "tags": {"stream": "answers", "context": {"question_id": 48520}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103403, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0017261505126953125, "tags": {"stream": "question_comments", "context": {"question_id": 48520}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.104553, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0015001296997070312, "tags": {"stream": "answers", "context": {"question_id": 21502}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.107042, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0028259754180908203, "tags": {"stream": "question_comments", "context": {"question_id": 21502}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "question_comments", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103544, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.002992868423461914, "tags": {"stream": "answers", "context": {"question_id": 19816}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103675, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.003247976303100586, "tags": {"stream": "question_comments", "context": {"question_id": 19816}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 7, "tags": {"stream": "question_comments", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.108492, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0023031234741210938, "tags": {"stream": "answers", "context": {"question_id": 49414}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103869, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0014491081237792969, "tags": {"stream": "question_comments", "context": {"question_id": 49414}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.102371, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.002504110336303711, "tags": {"stream": "answers", "context": {"question_id": 47239}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.106966, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0025408267974853516, "tags": {"stream": "question_comments", "context": {"question_id": 47239}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "question_comments", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.108105, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0013010501861572266, "tags": {"stream": "answers", "context": {"question_id": 55808}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.097749, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0014178752899169922, "tags": {"stream": "question_comments", "context": {"question_id": 55808}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.139333, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0016016960144042969, "tags": {"stream": "answers", "context": {"question_id": 48503}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.099539, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0014116764068603516, "tags": {"stream": "question_comments", "context": {"question_id": 48503}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.124788, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0016031265258789062, "tags": {"stream": "answers", "context": {"question_id": 56405}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.111623, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0014090538024902344, "tags": {"stream": "question_comments", "context": {"question_id": 56405}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.097872, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0015020370483398438, "tags": {"stream": "answers", "context": {"question_id": 39973}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.107824, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0014410018920898438, "tags": {"stream": "question_comments", "context": {"question_id": 39973}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103348, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0027289390563964844, "tags": {"stream": "answers", "context": {"question_id": 54062}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103383, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0013818740844726562, "tags": {"stream": "question_comments", "context": {"question_id": 54062}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.104608, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0015499591827392578, "tags": {"stream": "answers", "context": {"question_id": 53543}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.099452, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0012600421905517578, "tags": {"stream": "question_comments", "context": {"question_id": 53543}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.101413, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.002794027328491211, "tags": {"stream": "answers", "context": {"question_id": 34368}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.104867, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.002809762954711914, "tags": {"stream": "question_comments", "context": {"question_id": 34368}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "question_comments", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.1059, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.001600027084350586, "tags": {"stream": "answers", "context": {"question_id": 61247}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.102661, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0012612342834472656, "tags": {"stream": "question_comments", "context": {"question_id": 61247}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "questions", "endpoint": "/questions", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.21788787841796875, "tags": {"stream": "questions", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 27, "tags": {"stream": "questions", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.432021, "tags": {"stream": "tag_synonyms", "endpoint": "/tags/{tag}/synonyms", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "tag_synonyms", "endpoint": "/tags/{tag}/synonyms", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0016281604766845703, "tags": {"stream": "tag_synonyms", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "tag_synonyms", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.496807, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.126265, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.117238, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.115443, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.114358, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.114527, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.106658, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.206878, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.266503, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.197892, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.16902, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.11301, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.116561, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.114028, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.148107, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.110449, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 16, "tags": {"stream": "tags", "endpoint": "/tags"}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1581261157989502, "tags": {"stream": "tags", "context": {}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1538, "tags": {"stream": "tags", "context": {}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.448651, "tags": {"stream": "top_answerers", "endpoint": "/tags/{tag}/top-answerers/all_time", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "top_answerers", "endpoint": "/tags/{tag}/top-answerers/all_time", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.004900932312011719, "tags": {"stream": "top_answerers", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 20, "tags": {"stream": "top_answerers", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.462952, "tags": {"stream": "top_askers", "endpoint": "/tags/{tag}/top-askers/all_time", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "top_askers", "endpoint": "/tags/{tag}/top-askers/all_time", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.0042798519134521484, "tags": {"stream": "top_askers", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 16, "tags": {"stream": "top_askers", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.570872, "tags": {"stream": "questions", "endpoint": "/questions", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.459986, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.46685314178466797, "tags": {"stream": "answers", "context": {"question_id": 10158}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.452267, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.4587278366088867, "tags": {"stream": "question_comments", "context": {"question_id": 10158}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 10158}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.137333, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.14459490776062012, "tags": {"stream": "answers", "context": {"question_id": 20378}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.113821, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11922121047973633, "tags": {"stream": "question_comments", "context": {"question_id": 20378}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 20378}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.121921, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1290140151977539, "tags": {"stream": "answers", "context": {"question_id": 6449}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.180831, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1875619888305664, "tags": {"stream": "question_comments", "context": {"question_id": 6449}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "question_comments", "context": {"question_id": 6449}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.111576, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11766719818115234, "tags": {"stream": "answers", "context": {"question_id": 4494}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.108639, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11397910118103027, "tags": {"stream": "question_comments", "context": {"question_id": 4494}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 4494}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.119114, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1271979808807373, "tags": {"stream": "answers", "context": {"question_id": 468}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.105492, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11174798011779785, "tags": {"stream": "question_comments", "context": {"question_id": 468}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 468}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.114298, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.12024092674255371, "tags": {"stream": "answers", "context": {"question_id": 31890}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.10815, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11365699768066406, "tags": {"stream": "question_comments", "context": {"question_id": 31890}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 31890}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.1081, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11531209945678711, "tags": {"stream": "answers", "context": {"question_id": 6441}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.100426, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10536003112792969, "tags": {"stream": "question_comments", "context": {"question_id": 6441}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 6441}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.106544, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11344003677368164, "tags": {"stream": "answers", "context": {"question_id": 19497}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "answers", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.108653, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11644887924194336, "tags": {"stream": "question_comments", "context": {"question_id": 19497}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 10, "tags": {"stream": "question_comments", "context": {"question_id": 19497}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.101785, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10900497436523438, "tags": {"stream": "answers", "context": {"question_id": 35918}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.102819, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10830402374267578, "tags": {"stream": "question_comments", "context": {"question_id": 35918}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 35918}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.100822, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10676789283752441, "tags": {"stream": "answers", "context": {"question_id": 37962}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.10668, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11284399032592773, "tags": {"stream": "question_comments", "context": {"question_id": 37962}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 37962}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.102955, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10984921455383301, "tags": {"stream": "answers", "context": {"question_id": 14190}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.098286, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1047370433807373, "tags": {"stream": "question_comments", "context": {"question_id": 14190}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "question_comments", "context": {"question_id": 14190}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.105954, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11382508277893066, "tags": {"stream": "answers", "context": {"question_id": 6}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 6, "tags": {"stream": "answers", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.112937, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11953997611999512, "tags": {"stream": "question_comments", "context": {"question_id": 6}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "question_comments", "context": {"question_id": 6}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.106885, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11254715919494629, "tags": {"stream": "answers", "context": {"question_id": 46197}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103187, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11017823219299316, "tags": {"stream": "question_comments", "context": {"question_id": 46197}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 4, "tags": {"stream": "question_comments", "context": {"question_id": 46197}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.106825, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11520576477050781, "tags": {"stream": "answers", "context": {"question_id": 361}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.105171, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11178183555603027, "tags": {"stream": "question_comments", "context": {"question_id": 361}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 361}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.104186, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1097099781036377, "tags": {"stream": "answers", "context": {"question_id": 48520}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103628, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1097860336303711, "tags": {"stream": "question_comments", "context": {"question_id": 48520}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 48520}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.110671, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11661911010742188, "tags": {"stream": "answers", "context": {"question_id": 21502}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.099385, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10730600357055664, "tags": {"stream": "question_comments", "context": {"question_id": 21502}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "question_comments", "context": {"question_id": 21502}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.104211, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1113138198852539, "tags": {"stream": "answers", "context": {"question_id": 19816}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 5, "tags": {"stream": "answers", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.098802, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10782408714294434, "tags": {"stream": "question_comments", "context": {"question_id": 19816}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 7, "tags": {"stream": "question_comments", "context": {"question_id": 19816}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.098697, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10541796684265137, "tags": {"stream": "answers", "context": {"question_id": 49414}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.102933, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1087501049041748, "tags": {"stream": "question_comments", "context": {"question_id": 49414}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 49414}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.101691, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1094810962677002, "tags": {"stream": "answers", "context": {"question_id": 47239}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.100329, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10715007781982422, "tags": {"stream": "question_comments", "context": {"question_id": 47239}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "question_comments", "context": {"question_id": 47239}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.103323, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10878515243530273, "tags": {"stream": "answers", "context": {"question_id": 55808}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "answers", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.115821, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.12180876731872559, "tags": {"stream": "question_comments", "context": {"question_id": 55808}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 55808}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.101588, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10794281959533691, "tags": {"stream": "answers", "context": {"question_id": 48503}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.106706, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11269307136535645, "tags": {"stream": "question_comments", "context": {"question_id": 48503}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 48503}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.11129, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1174771785736084, "tags": {"stream": "answers", "context": {"question_id": 56405}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.104117, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11038804054260254, "tags": {"stream": "question_comments", "context": {"question_id": 56405}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 56405}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.138591, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1456770896911621, "tags": {"stream": "answers", "context": {"question_id": 39973}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.115364, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.12199878692626953, "tags": {"stream": "question_comments", "context": {"question_id": 39973}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "question_comments", "context": {"question_id": 39973}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.124801, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.13194584846496582, "tags": {"stream": "answers", "context": {"question_id": 54062}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 2, "tags": {"stream": "answers", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.105097, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11100268363952637, "tags": {"stream": "question_comments", "context": {"question_id": 54062}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 54062}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.130379, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.1361379623413086, "tags": {"stream": "answers", "context": {"question_id": 53543}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.12046, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.12628626823425293, "tags": {"stream": "question_comments", "context": {"question_id": 53543}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 53543}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.120109, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.12704110145568848, "tags": {"stream": "answers", "context": {"question_id": 34368}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "answers", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.108179, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.11739015579223633, "tags": {"stream": "question_comments", "context": {"question_id": 34368}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 3, "tags": {"stream": "question_comments", "context": {"question_id": 34368}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.123185, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "answers", "endpoint": "/questions/{question_id}/answers", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.12981414794921875, "tags": {"stream": "answers", "context": {"question_id": 61247}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "answers", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.101833, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "http_status_code": 200, "status": "succeeded", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "question_comments", "endpoint": "/questions/{question_id}/comments", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.10768485069274902, "tags": {"stream": "question_comments", "context": {"question_id": 61247}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "question_comments", "context": {"question_id": 61247}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "questions", "endpoint": "/questions", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 7.823533058166504, "tags": {"stream": "questions", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 27, "tags": {"stream": "questions", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.406336, "tags": {"stream": "tag_synonyms", "endpoint": "/tags/{tag}/synonyms", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "tag_synonyms", "endpoint": "/tags/{tag}/synonyms", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.4115567207336426, "tags": {"stream": "tag_synonyms", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 0, "tags": {"stream": "tag_synonyms", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.487657, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.115912, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.11557, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.114664, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.113381, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.118603, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.115276, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.111549, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.121151, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.115523, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.113458, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.117243, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.120362, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.113863, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.120041, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.108634, "tags": {"stream": "tags", "endpoint": "/tags", "http_status_code": 200, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 16, "tags": {"stream": "tags", "endpoint": "/tags"}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 2.4863340854644775, "tags": {"stream": "tags", "context": {}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 1538, "tags": {"stream": "tags", "context": {}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.456824, "tags": {"stream": "top_answerers", "endpoint": "/tags/{tag}/top-answerers/all_time", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "top_answerers", "endpoint": "/tags/{tag}/top-answerers/all_time", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.4682590961456299, "tags": {"stream": "top_answerers", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 20, "tags": {"stream": "top_answerers", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "http_request_duration", "value": 0.418276, "tags": {"stream": "top_askers", "endpoint": "/tags/{tag}/top-askers/all_time", "http_status_code": 200, "status": "succeeded", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "counter", "metric": "http_request_count", "value": 1, "tags": {"stream": "top_askers", "endpoint": "/tags/{tag}/top-askers/all_time", "context": {"tag": "dragon-ball-gt"}}}
+INFO METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.4280567169189453, "tags": {"stream": "top_askers", "context": {"tag": "dragon-ball-gt"}, "status": "succeeded"}}
+INFO METRIC: {"type": "counter", "metric": "record_count", "value": 16, "tags": {"stream": "top_askers", "context": {"tag": "dragon-ball-gt"}}}
