@@ -10,12 +10,14 @@ use serde_json::{Map, Value};
 pub type Tags = Map<String, Value>;
 
 lazy_static! {
-    static ref SINGER_METRIC_PATTERN: Regex =
-        Regex::new(r"^(?P<timestamp>.+?)?\s*?INFO METRIC: (?P<metric_json>.*)$").unwrap();
+    static ref SINGER_METRIC_PATTERN: Regex = Regex::new(
+        r"^(?P<timestamp>\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2},\d{3})?\s*?(?P<loglevel>NOTSET|DEBUG|INFO|WARNING|ERROR|CRITICAL)?\s*?METRIC: (?P<metric_json>.*)$"
+    )
+    .unwrap();
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-#[serde(tag = "metric_type", rename_all = "lowercase")]
+#[serde(tag = "type", rename_all = "lowercase")]
 pub enum Point {
     Timer {
         /// The metric name
@@ -117,8 +119,7 @@ impl Measurement {
 
 #[test]
 fn test_from_singer_metric_line() {
-    let line = "2020-10-01 00:00:00,000 INFO METRIC: {\"metric_type\": \"timer\", \"metric\": \
-                \"test\", \"value\": 1.0, \"tags\": {\"tag1\": \"value1\"}}";
+    let line = r#"2020-10-01 00:00:00,000 INFO METRIC: {"type": "timer", "metric": "test", "value": 1.0, "tags": {"tag1": "value1"}}"#;
     let measurement = Measurement::from_singer_metric_line(line).unwrap();
 
     assert_eq!(
@@ -135,8 +136,7 @@ fn test_from_singer_metric_line() {
 
 #[test]
 fn test_from_singer_metric_line_no_timestamp() {
-    let line = "INFO METRIC: {\"metric_type\": \"timer\", \"metric\": \"test\", \"value\": 1.0, \
-                \"tags\": {\"tag1\": \"value1\"}}";
+    let line = r#"INFO METRIC: {"type": "timer", "metric": "test", "value": 1.0, "tags": {"tag1": "value1"}}"#;
     let measurement = Measurement::from_singer_metric_line(line).unwrap();
 
     assert!(measurement.timestamp > Utc::now() - chrono::Duration::seconds(1));
