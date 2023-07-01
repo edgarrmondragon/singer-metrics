@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.26"
-clap = { version = "4.3.0", features = ["derive"] }
+clap = { version = "4.3.10", features = ["derive"] }
 lazy_static = "1.4.0"
 regex = "1.8.3"
 serde = { version = "1.0.164", features = ["derive"] }
