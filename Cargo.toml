@@ -7,11 +7,11 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.38"
-clap = { version = "4.5.19", features = ["derive"] }
+clap = { version = "4.5.20", features = ["derive"] }
 lazy_static = "1.5.0"
-regex = "1.11.0"
-serde = { version = "1.0.210", features = ["derive"] }
-serde_json = "1.0.128"
+regex = "1.11.1"
+serde = { version = "1.0.214", features = ["derive"] }
+serde_json = "1.0.132"
 
 [[bin]]
 name = "singer-metrics"
