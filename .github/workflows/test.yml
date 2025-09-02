@@ -15,7 +15,7 @@ jobs:
     name: "cargo fmt"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: "Install Rust toolchain"
         run: rustup component add rustfmt
       - run: cargo fmt --all --check
@@ -24,7 +24,7 @@ jobs:
     name: "cargo clippy"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: "Install Rust toolchain"
         run: |
           rustup component add clippy
@@ -35,7 +35,7 @@ jobs:
     name: "cargo test"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: "Install Rust toolchain"
         run: rustup show
       - uses: Swatinem/rust-cache@v2
